@@ -1,2 +1,8 @@
-package com.projects.sms.repository;public class StudentRepository {
+package com.projects.sms.repository;
+
+import com.projects.sms.entity.Student;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface StudentRepository extends JpaRepository<Student, Long> {
+
 }
